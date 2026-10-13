@@ -4,7 +4,7 @@
   "description": "The Learning Minds Higher Secondary School - public website + school management system (Vercel ready)",
   "main": "local.js",
   "private": true,
-  "engines": { "node": "22.x" },
+  "engines": { "node": "24.x" },
   "scripts": {
     "start": "node local.js",
     "dev": "node local.js",
