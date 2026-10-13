@@ -4,7 +4,10 @@
   "rewrites": [
     { "source": "/(.*)", "destination": "local.js" }
   ],
-  "functions": {
-    "api/index.js": { "maxDuration": 30 }
-  }
+  {
+  "framework": null,
+  "outputDirectory": "public",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "local.js" }
+  ]
 }
